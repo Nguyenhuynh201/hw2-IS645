@@ -1,0 +1,28 @@
+/* Paragraphs – Use Calibri font  */
+p {font-family: Calibri;}
+
+/* Body – Use Calibri font*/
+
+body { font-family: Calibri;}
+
+/* h1, h2 – Use Courier New font and color to be red  */
+h1,h2 {font-family: 'Courier New'; color: red}
+
+a:link { color: red; text-decoration: none;}   /* not visited to be red */
+a:visited { color: green;}  /*  visited to be green */
+
+/* submit button */
+input[type = "submit"] :hover {background-color: red;} 
+input[type = "submit"] :hover{background-color: green;}
+
+/* unordered list */
+ul {list-style-type: square;}
+
+/* ordered list */
+ol {list-style-type: lower-roman;}
+
+/* TABLE */
+
+tr:nth-child(even) {background-color: lightgray;}
+tr:hover {background-color: lightblue;}
+

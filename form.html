@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css"> <!--Link to use the external CSS style-->
+
+<head>
+    <title>TBar Boba Shop</title>
+
+</head>
+<body>
+    <!--Link to the Introductory page (use relative link)-->
+    <p><A href="index.html">Go back to the main page</A></p>
+    <!--Size 2 Heading -->
+    <h2> Answer our survey - a chance to win free BOBA </h2>
+    <!--Size 4 Heading -->
+    <h4>Please sign in with your membership information</h4>
+
+<FORM>
+    Username or Member #: <input type="text" NAME ="username"> <br>
+    Password: <input type="password" NAME="password"> <br>
+
+    Type of payment for the last purchase:<br>
+    <input type="radio" name="pmt" value="Cash" checked>Cash<br>
+    <input type="radio" name="pmt" value="Credit/Debit Card" checked>Credit/Debit Card<br>
+    <input type="radio" name="pmt" value="Gift Card" checked>Gift Card<br>
+
+    How did you order?
+    <input type="checkbox" name="ordermeth" value="In person"> Order In-Person <br>
+    <input type="checkbox" name="ordermeth" value="GrubHub"> GrubHub Delievery <br>
+
+    What did you order?<br>
+    <select name="What did you order?" multiple size="5">
+        <option value="Fresh Tea">Fresh Tea</option>
+        <option value="Milk Tea">Milk Tea</option>
+        <option value="Flavored/Fruit Tea">Flavored/Fruit Tea</option>
+        <option value="Yogurt/Yakult">Yogurt/Yakult</option>
+      </select><br>
+
+    What date did you order?
+    <input type="date" Name="date" value="dateoforder"><br>
+
+    <input type="submit" value="Submit"><br>
+
+</FORM>
+</body>
+</html>
